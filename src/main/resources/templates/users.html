@@ -1,0 +1,12 @@
+{{>header.html}}
+{{>nav.html}}
+
+
+<h1>Users:</h1>
+<ul>
+    {{#Values}}  <!--ITERADOR-->
+    <li><a href="http://localhost:8080/users/{{ID}}">{{Name}}</a> </li>
+    {{/Values}}
+</ul>
+
+{{>footer.html}}
